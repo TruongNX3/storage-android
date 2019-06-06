@@ -1,0 +1,17 @@
+
+esquid:S1126<"BReplace this if-then-else statement by a single method invocation.(™ë°Äÿÿÿÿÿ8¬ßÅÃ±-
+Vsquid:S1197_"8Move the array designator from the variable to the type.(Ñóğü8ÿ†§Ä±-
+lsquid:S4042n"IUse "java.nio.Files#delete" here for better messages on error conditions.(û«İøøÿÿÿÿ8Ö¦âÃ±-
+gsquid:S1226l"DIntroduce a new variable instead of reusing the parameter "content".(˜áÎûÿÿÿÿ8ı÷ÑÄ±-
+vsquid:S1450"XRemove the "mCheckBox" field and declare it as a local variable in the relevant methods.(“şã¤8‚æÂ±-
+isquid:S1192&"FDefine a constant instead of duplicating this literal "log//" 7 times.(¹¨öÈÿÿÿÿÿ8ÒÏéÃ±-
+Fsquid:S1148f"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8åü¤Ä±-
+nsquid:S13019"KReplace this "switch" statement by "if" statements to increase readability.(×“¾ñùÿÿÿÿ8Û¬ÔÂ±-
+Fsquid:S1148|"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ŒÁÄ±-
+ysquid:S1450"VRemove the "ivCheck" field and declare it as a local variable in the relevant methods.( Õ·öùÿÿÿÿ8Â´ÑÂ±-
+ksquid:S2095]"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(“ÌØ”8ªü£Ä±-
+9squid:S1643b"Use a StringBuilder instead.(¯ÅßK8Æı¾Ä±-
+lsquid:S2095w"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(éà¾î8ÈğÃ±-
+Msquid:S1066,"/Merge this if statement with the enclosing one.(‚´Ê×8²ŒŒÃ±-
+nsquid:CommentedOutCodeLineJ"<This block of commented-out lines of code should be removed.(ÍóßÜûÿÿÿÿ8”üÖÄ±-
+Rsquid:EmptyStatementUsageCheckd"Remove this empty statement.(ôŸìúÿÿÿÿ8Ó¤±Ä±-

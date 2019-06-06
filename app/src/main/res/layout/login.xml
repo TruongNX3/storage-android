@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_margin="10dp"
+        android:tint="@android:color/white"
+        android:src="@drawable/ic_android"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:hint="Username"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:hint="Password"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TableRow
+        android:id="@+id/tr_save_acc"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <CheckBox
+            android:id="@+id/cb_save"
+            android:buttonTint="@android:color/white"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:text="Ghi nhớ tên tài khoản"
+            android:textColor="@android:color/white"/>
+    </TableRow>
+
+    <TextView
+        android:hint="LOGIN"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColorHint="@color/colorAccent"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>
